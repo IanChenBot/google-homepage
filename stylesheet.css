@@ -1,3 +1,35 @@
+
 a:hover p{
     text-decoration: underline;
+}
+#main-img{
+    display:block;
+}
+.icon{
+    height:auto;
+    width:1rem;
+}
+#searchbox{
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 10px;
+}
+#searchbar{
+    border:transparent;
+    height:100%;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+footer{
+    bottom:0px;
+}
+footer div{
+    display : inline;
+}
+#searchbox:hover{
+    border:transparent;
+    box-shadow:1px 1px rgb(223, 223, 223) ;
 }
