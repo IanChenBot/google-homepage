@@ -1,7 +1,19 @@
 
-a:hover p{
+html, body{
+    box-sizing : border-box;
+    margin:0;
+    height:100%;
+}
+*,  *::before, *::after{
+    box-sizing: inherit;
+}
+a:hover {
     text-decoration: underline;
 }
+main{
+    padding:25%;
+}
+
 #main-img{
     display:block;
 }
@@ -12,24 +24,25 @@ a:hover p{
 #searchbox{
     display: inline-block;
     padding: 5px;
-    border: 2px solid rgb(211, 211, 211);
-    border-radius: 10px;
+    border: 0.5px solid rgb(211, 211, 211);
+    border-radius: 50px;
 }
 #searchbar{
     border:transparent;
-    height:100%;
+    width:25rem;
 }
 .center{
     text-align: center;
     margin: 0 auto;
 }
 footer{
-    bottom:0px;
+    position: absolute;
+    bottom:0%;
 }
 footer div{
     display : inline;
 }
 #searchbox:hover{
     border:transparent;
-    box-shadow:1px 1px rgb(223, 223, 223) ;
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
 }
